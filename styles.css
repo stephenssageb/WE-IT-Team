@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #367c2b; /* John Deere Green */
+    margin-bottom: 30px;
+}
+
+.tile {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: #fff;
+    border: 2px solid #367c2b;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tile:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tile img {
+    margin-top: 20px;
+    width: 60px;
+    height: auto;
+}
+
+.tile p {
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+}
